@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
     // res.sendStatus(200)
 })
 
-// ルーティング
+// userルーティング
 app.use('/user', userRouter);
 
 
